@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule /css/([^\/]+).css$ css/$1.css [L]
+RewriteRule /js/([^\/]+).js$ js/$1.js [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_URI} ^(.*/[^/\.]+)$
+RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1/ [R=301,L]
+RewriteRule !\.(jpg|gif|swf|ico|.*)$ index.php [NC,L]

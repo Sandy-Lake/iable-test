@@ -39,3 +39,5 @@ To make sure that our MySQL image uses correct database, go to the MySQL contain
 
 1. The project has Course entity, which structure reflected in object model that places in ```models/Course.php```.
 2. ```api/CourseManager.php``` object that serves for CRUD operations.
+3. Entry point is `````"/"````` route. Here you can see the Index page.
+4. ```/courses``` is the main route for Index page of Courses.

@@ -1,0 +1,23 @@
+div {
+    border: 100px;
+    color: #3E3B95;
+}
+
+.header {
+    height: 5%;
+}
+
+.all-courses {
+    height: 5%;
+}
+
+.courses {
+    padding-left: 15px;
+}
+
+.clickable {
+    cursor:pointer;
+    color:blue;
+    text-decoration:underline;
+}
+

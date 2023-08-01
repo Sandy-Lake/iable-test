@@ -1,5 +1,5 @@
 <?php
-namespace Interfaces;
+namespace Src\Interfaces;
 
 interface ModelInterface
 {
